@@ -1,2 +1,0 @@
-# BankApp
-Aplikacja Bankowa
