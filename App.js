@@ -1,12 +1,10 @@
-import {StatusBar} from 'expo-status-bar';
 import React from 'react';
 import {NavigationContainer} from "@react-navigation/native";
 import {createStackNavigator} from "@react-navigation/stack";
 
-import TouchScreen from "./src/screens/TouchScreen";
+import TouchScreen from "./src/TouchScreen";
 
-export default function App() 
-{
+export default App = () => {
 	const AppStack = createStackNavigator();
 
 	return(
@@ -16,4 +14,4 @@ export default function App()
 			</AppStack.Navigator>
 		</NavigationContainer>
 	);
-}
+};
